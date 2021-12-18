@@ -3,7 +3,7 @@
 @section('container')
 <article class="mb-5">
     <h2>{{ $post->tittle }}</h2>
-    <h5>By : {{ $post->author }}</h5>
+    <h5>Category : <a href="/categories/{{ $post->category->slug }}">{{ $post->category->name }}</a></h5>
     {!! $post->body !!}
 </article>
 
