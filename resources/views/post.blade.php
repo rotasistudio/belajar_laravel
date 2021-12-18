@@ -15,6 +15,7 @@
 Post::create([
 'tittle'=> "Judul 3",
 'slug' => "judul-3",
+'category_id' => 3,
 'excerpt' => "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
 'body' => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aperiam libero sed quos eaque quae, et ipsum
 ipsa
